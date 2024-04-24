@@ -1,0 +1,15 @@
+{
+  "originHash" : "dfa90a391a06c680ac61b4de68fb1f4cab42b069ceee2bf5231a41ac744d0355",
+  "pins" : [
+    {
+      "identity" : "context-sdk-releases",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/context-sdk/context-sdk-releases",
+      "state" : {
+        "revision" : "4d0e65833c2a8b7552158b2c7bf0977d0a27eff1",
+        "version" : "4.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
