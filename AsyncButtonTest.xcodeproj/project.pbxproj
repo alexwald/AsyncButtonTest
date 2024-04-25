@@ -12,7 +12,6 @@
 		FAC1EC212BD80129008A64A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1EC202BD80129008A64A0 /* Assets.xcassets */; };
 		FAC1EC242BD80129008A64A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1EC232BD80129008A64A0 /* Preview Assets.xcassets */; };
 		FAC1EC2B2BD80135008A64A0 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1EC2A2BD80135008A64A0 /* AsyncButton.swift */; };
-		FAC1EC2E2BD80537008A64A0 /* ContextSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FAC1EC2D2BD80537008A64A0 /* ContextSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC1EC2E2BD80537008A64A0 /* ContextSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +87,6 @@
 			);
 			name = AsyncButtonTest;
 			packageProductDependencies = (
-				FAC1EC2D2BD80537008A64A0 /* ContextSDK */,
 			);
 			productName = AsyncButtonTest;
 			productReference = FAC1EC192BD80128008A64A0 /* AsyncButtonTest.app */;
@@ -120,7 +117,6 @@
 			);
 			mainGroup = FAC1EC102BD80128008A64A0;
 			packageReferences = (
-				FAC1EC2C2BD80537008A64A0 /* XCRemoteSwiftPackageReference "context-sdk-releases" */,
 			);
 			productRefGroup = FAC1EC1A2BD80128008A64A0 /* Products */;
 			projectDirPath = "";
@@ -356,25 +352,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FAC1EC2C2BD80537008A64A0 /* XCRemoteSwiftPackageReference "context-sdk-releases" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/context-sdk/context-sdk-releases";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FAC1EC2D2BD80537008A64A0 /* ContextSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FAC1EC2C2BD80537008A64A0 /* XCRemoteSwiftPackageReference "context-sdk-releases" */;
-			productName = ContextSDK;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAC1EC112BD80128008A64A0 /* Project object */;
 }
